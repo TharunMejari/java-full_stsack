@@ -1,0 +1,17 @@
+package (your package);
+import java.util.Scanner;
+public class Areas
+{
+  public static void main(String[] args)
+  {
+    Scanner x=new Scanner(System.in);
+    int length,breadth,area;  // change them to double if float values and add height for triangle 
+
+    System.out.println("enter length value :");
+    length=x.nextInt();
+    System.out.println("Enter breadth value : ");
+    breadth=x.nextInt();
+    area=length*breadth  // here you have to change are formula accordingly
+    System.out.println("area of rectangle is = "+ area);
+  }
+}
