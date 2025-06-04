@@ -1,0 +1,20 @@
+package (your package);
+import java.util.Scanner;
+public class positive_negative_int
+{
+  public static void main(String[] args)
+  {
+  Scanner x=new Scanner(System.in);
+  int a;
+  System.out.println("Enter any number : ");
+  a=x.nextInt();
+  if(a>0)
+  {
+  System.out.println("It is positive integer.");
+  }
+  else
+  {
+  System.out.println("It is a negative integer.");
+  }
+  }
+}
