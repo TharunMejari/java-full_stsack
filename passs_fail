@@ -1,0 +1,27 @@
+// this program is by using and (&&) operator
+
+package basic;
+import java.util.Scanner;
+public class passs_fail
+{
+public static void main(String[] args)
+  {
+  Scanner x=new Scanner(System.in);
+  int english,maths,science,social,hindi;
+  System.out.println("enter eng,met,sci,soc,hin marks : ");
+  english=x.nextInt();
+  maths=x.nextInt();
+  science=x.nextInt();
+  social=x.nextInt();
+  hindi=x.nextInt();
+
+  if(english>35 && maths>35 && science>35 && social>35 && hindi>35)
+    {
+    System.out.println("you are pass.");
+    }
+    else
+    {
+    System.out.pritnln("you are fail.");
+    }
+  }  // close main
+}  // close class
