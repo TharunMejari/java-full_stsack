@@ -1,0 +1,24 @@
+// this code is to check whether the entered alphabet or charachter is vowel or consonent
+
+package (your package);
+  import java.util.Scanner;
+  public class vowel_cons
+    {
+      public static void main(String[] args)
+      {
+        Scanner x=new Scanner(System.in);
+        char var;
+        System.out.println("Enter any one alphabe : ");
+        var=x.next().charAt(0);                                // here we use next() to store the entered string,charAt() for specifing the character we are taking from the entered word (0).
+        if(var == 'A' || var=='E' || var=='I' || var=='O' || var=='u' || var=='a' || var=='e' || var=='i' || var=='o' || var=='u')
+        {
+          System.out.println("It is vowel.");
+        }
+          else
+          {
+            System.out.println("It is consonent.");
+          }
+          }  // close main 
+
+            
+          }  // close class
