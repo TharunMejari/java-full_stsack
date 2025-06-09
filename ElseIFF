@@ -1,0 +1,37 @@
+package elsee_if;
+
+import java.util.Scanner;
+
+public class pass_fail {
+
+	public static void main(String[] args) {
+		Scanner x =new Scanner(System.in);
+		int eng,mat,sci,soc;
+		System.out.println("Enter eng,mat,sci,soc marks : ");
+		eng=x.nextInt();
+		mat=x.nextInt();
+		sci=x.nextInt();
+		soc=x.nextInt();
+		if(eng<35)
+		{
+			System.out.println("Fail");
+		}
+		else if(mat<35)
+				{
+					System.out.println("Fail");
+				}
+				else if(sci<35)
+					{
+						System.out.println("Fail");
+					}
+					else if(soc<35)
+						{
+							System.out.println("Fail");
+						}
+						else
+						{
+							System.out.println("Pass");
+						}
+	} //close main
+
+}  // close class
