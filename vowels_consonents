@@ -1,0 +1,61 @@
+package elsee_if;
+
+import java.util.Scanner;
+
+public class vowel_cons {
+
+	public static void main(String[] args) {
+		Scanner x=new Scanner(System.in);
+		char var;
+		
+		System.out.println("Enter any alphabetic character :");
+		
+		var=x.next().charAt(0);
+		if(var=='A')
+		{
+			System.out.println("Vowel");
+		}
+		else if(var=='E')
+		{
+			System.out.println("Vowel");
+		}
+			else if(var=='I')
+			{
+				System.out.println("Vowel");
+			}
+			else if(var=='O')
+				{
+				System.out.println("Vowel");
+				}
+			else if(var=='U')
+			{
+				System.out.println("Vowel");
+			}
+			else if(var=='a')
+			{
+				System.out.println("Vowel");
+			}
+			else if(var=='e')
+			{
+				System.out.println("Vowel");
+			}
+			else if(var=='i')
+			{
+				System.out.println("Vowel");
+			}
+			else if(var=='o')
+			{
+				System.out.println("Vowel");
+			}
+			else if(var=='u')
+			{
+				System.out.println("Vowel");
+			}
+			else
+			{
+				System.out.println("consonent");
+			}
+		
+	}  // close main
+
+}  // close class
