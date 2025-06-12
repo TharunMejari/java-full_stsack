@@ -1,0 +1,48 @@
+package elsee_if;
+
+import java.util.Scanner;
+
+public class WeekDays {
+
+	public static void main(String[] args) {
+		Scanner x =new Scanner(System.in);
+		int n;
+		System.out.println("1.Sunday \n 2.Monday \n 3.Tuesday \n 4.Wednesday \n 5.Thursday \n 6.Friday \n 7.Saturday \n");
+		System.out.println("Enter your choice : ");
+		n=x.nextInt();
+		if(n==1)
+		{
+			System.out.println("You have choosen Sunday.");
+		}
+		else if(n==2)
+				{
+					System.out.println("You have choosen Monday.");
+				}
+				else if(n==3)
+					{
+					System.out.println("You have choosen Tuesday.");
+					}
+					else if(n==4)
+						{
+						System.out.println("You have choosen Wednesday.");
+						}
+						else if(n==5)
+							{
+							System.out.println("You have choosen Thursday.");
+							}
+							else if(n==6)
+								{
+								System.out.println("You have choosen Friday.");
+								}
+								else if(n==7)
+									{
+									System.out.println("You have choosen Saturday.");
+									}
+									else
+									{
+										System.out.println("You have choosen invalid number \n plz enter a valid number between 1-7");
+									}
+
+	}
+
+}
