@@ -1,0 +1,57 @@
+package(Your package);
+import java.util.scanner;
+public class Grades
+{
+  public static void main(String[] args)
+  {
+    Scanner x=new Scanner(System.in);
+    int mat,eng,sci,soc,tel,total,avg;
+
+    System.out.println("enter your mat,eng,sci,soc,tel marks : ");
+    mat=x.nextInt();
+    eng=x.nextInt();
+    sci=x.nextInt();
+    soc=x.nextInt();
+    tel=x.nextInt();
+    total=met+eng+sci+soc+tel;
+    avg=total/5;
+
+    if(mat<35)
+    {
+      System.out.println("You are fail.");
+    }
+    else if(eng<35)
+          {
+            System.out.println("You are fail.");
+          }
+          else if(sci<35)
+                {
+                    System.out.println("You are fail.");
+                }
+                else if(soc<35)
+                      {
+                        System.out.println("You are fail.");
+                      }
+                      else if(tel<35)
+                            {
+                              System.out.println("You are fail.");
+                            }
+                            else if(avg>=65 && avg<=90)
+                                  {
+                                    System.out.println("you got first class.");
+                                  }
+                                  else if(avg>=45 && avg<=65)
+                                        {
+                                          System.out.println("You got second class.");;
+                                        }
+                                        else if(avg>=35 && avg<=45)
+                                              {
+                                                  System.out.println("you got third class.");
+                                              }
+                                              else
+                                              {
+                                                System.out.println("invalid data enterd");
+                                              }
+  }   // close main
+
+}  // class 
