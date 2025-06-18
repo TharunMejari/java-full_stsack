@@ -1,0 +1,80 @@
+package (your package);
+import java.util.Scanner;
+public class salarymanagment
+{
+public static void main(String[] args)
+  {
+    Scanner x=new Scanner(System.in);
+    int TA,HRA,DA,IT,PA,LIC,basic,networth,emp_id,gross;
+    System.out.println("Enter your employee_ID : ");
+    emp_id=x.nextInt();
+    System.out.println("Enter your basic salary : ");
+    basic=x.nextInt();
+
+    if(basic>=5000 && basic<=10000)
+    {
+      TA=basic*2/100;
+      DA=basic*4/100;
+      HRA=basic*6/100;
+      gross=TA+DA+HRA;
+      IT+basic*1/100;
+      LIC=basic*1/100;
+      PF=basic*4/100;
+      networth=gross-IT-LIC-PF;
+
+      System.out.println("______Salary Report______"+
+                          "\n EMP_ID\t=\t" +emp_id+
+                          "\nBasic\t=\t +basic+
+                          "\nTA\t=\t +TA+
+                          "\nDA\t=\t +DA+
+                          "\nHRA\t=\t +HRA+
+                          "\nIT\t=\t +IT+
+                          "\nPF\t=\t +PF+
+                          "\nLIC\t=\t +LIC+
+                          "\nNETWORTH\t=\t +networth);
+        else if(basic>=10000 && basic<=20000)
+              {
+                TA=basic*4/100;
+                DA=basic*8/100;
+                HRA=basic*12/100;
+                gross=TA+DA+HRA;
+                IT+basic*2/100;
+                LIC=basic*5/100;
+                PF=basic*6/100;
+                networth=gross-IT-LIC-PF;
+          
+                System.out.println("______Salary Report______"+
+                                    "\n EMP_ID\t=\t" +emp_id+
+                                    "\nBasic\t=\t +basic+
+                                    "\nTA\t=\t +TA+
+                                    "\nDA\t=\t +DA+
+                                    "\nHRA\t=\t +HRA+
+                                    "\nIT\t=\t +IT+
+                                    "\nPF\t=\t +PF+
+                                    "\nLIC\t=\t +LIC+
+                                    "\nNETWORTH\t=\t +networth);
+              }
+               else if(basic>=20000 && basic<=30000)
+              {
+                TA=basic*6/100;
+                DA=basic*12/100;
+                HRA=basic*18/100;
+                gross=TA+DA+HRA;
+                IT+basic*3/100;
+                LIC=basic*6/100;
+                PF=basic*9/100;
+                networth=gross-IT-LIC-PF;
+          
+                System.out.println("______Salary Report______"+
+                                    "\n EMP_ID\t=\t" +emp_id+
+                                    "\nBasic\t=\t +basic+
+                                    "\nTA\t=\t +TA+
+                                    "\nDA\t=\t +DA+
+                                    "\nHRA\t=\t +HRA+
+                                    "\nIT\t=\t +IT+
+                                    "\nPF\t=\t +PF+
+                                    "\nLIC\t=\t +LIC+
+                                    "\nNETWORTH\t=\t +networth);
+              }
+  }  //close main
+}  // close class
