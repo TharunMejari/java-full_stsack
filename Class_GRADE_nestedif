@@ -1,0 +1,37 @@
+package (your package);
+import java.util.Scanner;
+public class class_grade
+{
+  public static void main(String[] k)
+  {
+    Scanner x=new Scanner(System.in);
+    int mat,eng,sci,soc,tel,avg,total;
+    System.out.pritnln("Enter your mat,eng,sci,soc,tel marks : ");
+    mat=x.nextInt();
+    eng=x.nextInt();
+    sci=x.nextInt();
+    soc=x.nextInt();
+    tel=x.nextInt();
+    total=mat+eng+sci+soc+tel;'
+    avg=total/5;
+    if(mat>=35 && eng>=35 && sci>=35 && soc>=35 && tel>=35)
+    {
+      if(avg>=75 && avg<=100)
+        {
+          System.out.println("you got first class.");
+        }
+        else if(avg>=65 && avg<=75)
+              {
+                System.out.println("you got second class.");
+              }
+              else if(avg>=35 && avg<=65)
+                    {
+                      System.out.println("you got third class.");
+                    }
+    }
+    else
+      {
+      System.out.println("you are fail.");
+      }
+  }
+}
